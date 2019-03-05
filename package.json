@@ -1,6 +1,6 @@
 {
   "name": "accountemplate",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Blank website with accounts accessibility.",
   "main": "index.js",
   "repository": {
@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/iosiflivadaru/accountemplate/issues"
   },
-  "homepage": "https://github.com/iosiflivadaru/accountemplate#readme"
+  "homepage": "https://github.com/iosiflivadaru/accountemplate#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
