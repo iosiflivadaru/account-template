@@ -1,7 +1,8 @@
 <?php session_start(); ?>
 <?php 
-	require_once 'includes/functions.inc.php';
-	require_once 'includes/db_connect.inc.php'; 
+	require_once 'inc/db/db_connect.inc.php';
+	require 'inc/functions/functions.inc.php';
+	require_once 'inc/app/config.inc.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,9 +12,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="icon" type="images/ico" href="images/favicon-music.ico" >
-	<title>Musik Player</title>
-	<link rel="stylesheet" href="css/style.css">
+
+	<title><?=$config['appName'];?></title>
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">	
 
@@ -28,4 +31,7 @@
 	
 </head>
 
-<body class="body">
+<body>
+	<?php include 'logout.php'; ?>
+	<?php include 'inc/layout/nav.inc.php'; ?>
+	<div class="container p-0 px-sm-3">

@@ -1,7 +1,7 @@
 <?php
 
 # Create a new connection to the database
-$db = new mysqli('localhost','root','','ncds');
+$db = new mysqli('localhost','root','','db');
 
 # If there was an errorconnecting to the database
 if ($db->connect_error) {
