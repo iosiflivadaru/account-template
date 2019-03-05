@@ -21,6 +21,7 @@ function login($db){
 		return false;
 	}
 }
+
 function checkLogin() {
 	echo "
 		<div class='row'>
@@ -38,12 +39,15 @@ function checkLogin() {
 }
 
 function echoActiveClassIfRequestMatches($requestUri){
-    $current_file_name = basename($_SERVER['REQUEST_URI'], ".php");
-    $current_file_name_get = basename($_SERVER['REQUEST_URI'], ".php?logout=true");
-
-    if ($current_file_name == $requestUri) {
-		echo 'active';
+	$current_file_name = basename($_SERVER['REQUEST_URI'], ".php");
+	$current_file_name_get = basename($_SERVER['REQUEST_URI'], ".php?logout=true");
+	$root = basename($_SERVER['REQUEST_URI'], " ");
+	
+	if ($current_file_name == $requestUri) {
+		echo ' active';
 	} else if ($current_file_name_get == $requestUri) {
-		echo 'active';
+		echo ' active';
+	} else if ($root == $requestUri) {
+		echo " active";
 	}
 }

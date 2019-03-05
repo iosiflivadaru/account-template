@@ -1,0 +1,16 @@
+{
+  "name": "accountemplate",
+  "version": "1.0.0",
+  "description": "Blank website with accounts accessibility.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iosiflivadaru/accountemplate.git"
+  },
+  "author": "Iosif Livadaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iosiflivadaru/accountemplate/issues"
+  },
+  "homepage": "https://github.com/iosiflivadaru/accountemplate#readme"
+}
