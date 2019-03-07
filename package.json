@@ -1,19 +1,19 @@
 {
-  "name": "accountemplate",
-  "version": "1.0.1",
+  "name": "account-template",
+  "version": "1.0.0",
   "description": "Blank website with accounts accessibility.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iosiflivadaru/accountemplate.git"
+    "url": "git+https://github.com/iosiflivadaru/account-template.git"
   },
   "author": "Iosif Livadaru",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iosiflivadaru/accountemplate/issues"
+    "url": "https://github.com/iosiflivadaru/account-template/issues"
   },
-  "homepage": "https://github.com/iosiflivadaru/accountemplate#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "homepage": "https://github.com/iosiflivadaru/account-template#readme",
+  "keywords": [
+    "login", "accounts", "website", "template"
+  ]
 }

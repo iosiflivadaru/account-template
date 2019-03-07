@@ -28,3 +28,7 @@ Import the sql file from the sql folder for the database!
 
 # Modify the config.inc.php
 In the config.inc.php file you are able to change the **App Name** and the **App Copyright**.
+
+# NPM install
+
+> \>npm i account-template

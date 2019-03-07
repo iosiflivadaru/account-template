@@ -18,7 +18,7 @@
 
 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
   <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-    <li class="nav-item <?=echoActiveClassIfRequestMatches("index"); echoActiveClassIfRequestMatches("accountemplate");?>">
+    <li class="nav-item <?=echoActiveClassIfRequestMatches("index"); echoActiveClassIfRequestMatches("account-template");?>">
       <a class="nav-link" href="index.php">Sign In <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item <?=echoActiveClassIfRequestMatches("register");?>">
