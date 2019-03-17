@@ -16,7 +16,7 @@ function login($db){
 		$_SESSION['id'] = $row['id'];
 		$_SESSION['loggedin'] = 1;
 		$_SESSION['role'] = $row['role'];
-		header("location: home.php");
+		header("location: index.php");
 	} else {
 		return false;
 	}
